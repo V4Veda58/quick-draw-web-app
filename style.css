@@ -1,0 +1,17 @@
+body{
+    background-color: mediumslateblue;
+    
+}
+#score{
+    font-size: 22px;
+    margin-left: 10px;
+    float: left;
+}
+#timer{
+    font-size: 22px;
+    margin-right: 10px;
+    float: right;
+}
+#sketch_name{
+    color: rgb(27, 4, 48);
+}
