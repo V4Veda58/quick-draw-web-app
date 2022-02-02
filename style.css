@@ -1,17 +1,30 @@
-body{
-    background-color: mediumslateblue;
-    
+body
+{
+    background-color:lightpink;
 }
-#score{
-    font-size: 22px;
-    margin-left: 10px;
-    float: left;
+h1{
+    color: rgb(255, 255, 255);
+    background-color: lightcoral;
 }
-#timer{
-    font-size: 22px;
-    margin-right: 10px;
-    float: right;
+#show_sketch
+{
+    float:right;
+    background-color:violet;
 }
-#sketch_name{
-    color: rgb(27, 4, 48);
+canvas{
+    border: 5px solid white;
+    border-radius: 10px;
+    animation-name: percy_jackson;
+    animation-duration: 4s;
+    margin-top: 50px;
+    animation-iteration-count: infinite;
+}
+@keyframes percy_jackson {
+    from {box-shadow: 5px 5px 15px rgb(92, 2, 2);}
+    to {box-shadow: 5px 5px 15px rgb(107, 5, 121);}
+
+}
+p{
+    padding-top: 10px;
+    font-size: 25px;
 }
